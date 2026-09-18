@@ -1,0 +1,23 @@
+{
+  "name": "playwright-pom-framework",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript automation framework using the Page Object Model",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "pom",
+    "automation"
+  ],
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.5.0",
+    "typescript": "^5.5.4"
+  }
+}
